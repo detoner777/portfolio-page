@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: white;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -81,12 +81,13 @@
       transform: translate3d(0, 0, 0);
     }
     .portrait {
+      
       width: 250px;
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
       border: solid 3px $secondary-color;
-    }
+      }
   }
   .nav-item {
     transform: translate3d(600px, 0, 0);
@@ -108,8 +109,8 @@
 	  font-size: 30px;
 	  text-transform: uppercase;
 	  padding: 1rem 0;
-	  font-weight: 300;
-	  color: white;
+    font-weight: 300;
+    color: set-text-color($primary-color);
 	  text-decoration: none;
 	  @include easeOut;
 
