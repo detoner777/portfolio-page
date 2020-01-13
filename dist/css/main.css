@@ -284,6 +284,7 @@ main {
 
 .description .tools li {
   color: black;
+  margin-top: 4px;
   padding: 10px;
   border-radius: 5px;
   background-color: lightblue;
@@ -291,9 +292,6 @@ main {
   width: auto;
   height: 36px;
   display: inline-block; }
-
-#portfolio div section {
-  cursor: pointer; }
 
 #portfolio div:nth-child(odd) section {
   background-color: #162125;
@@ -334,7 +332,7 @@ main {
   transition: opacity .32s; }
 
 #portfolio section:hover .description {
-  top: 140px;
+  top: 100px;
   transition: top .5s; }
 
 #portfolio section:hover .overlay .heading span {

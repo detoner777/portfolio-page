@@ -244,6 +244,7 @@ main {
 }
 
 .description span {
+	
 	margin-left: 10px;
 }
 
@@ -254,6 +255,7 @@ main {
 
 .description .tools li {
   color: black;
+  margin-top: 4px;
   padding: 10px;
   border-radius: 5px;
   background-color: lightblue;
@@ -265,7 +267,7 @@ main {
 }
 
 #portfolio div section {
-	cursor: pointer;
+	// cursor: pointer;
 }
 
 #portfolio div:nth-child(odd) section {
@@ -316,7 +318,7 @@ main {
 }
 
 #portfolio section:hover .description {
-	top: 140px;
+	top: 100px;
 	transition: top .5s;
 }
 
