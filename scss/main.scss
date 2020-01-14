@@ -106,7 +106,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
   'bioimage bio bio'
-  'job1 job2 job3';
+  'job-1 tech tech';
   grid-template-columns: repeat(3, 1fr);
  
   .bio-image {
@@ -262,6 +262,34 @@ main {
   text-align: center;
   width: auto;
   height: 36px;
+  display: inline-block;
+  
+}
+
+.tech {
+	grid-area: tech;
+	
+}
+
+.tech span {
+	
+	margin-left: 10px;
+}
+
+.tech .tools {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.tech .tools li {
+  color: black;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: lightblue;
+  text-align: center;
+  width: auto;
+  height: 40px;
   display: inline-block;
   
 }
