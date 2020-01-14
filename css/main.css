@@ -478,6 +478,8 @@ main {
     width: 90%; } }
 
 @media screen and (max-width: 570px) {
+  #home {
+    overflow-x: hidden; }
   #home nav {
     width: inherit; }
   #about .signature {
@@ -597,6 +599,8 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  main#home#home {
+    overflow-x: hidden; }
   main#home h1 {
     margin-top: 10vh; }
   .projects {
