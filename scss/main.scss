@@ -268,7 +268,7 @@ main {
 
 .tech {
 	grid-area: tech;
-	
+
 }
 
 .tech span {
@@ -527,6 +527,10 @@ main {
 }
 
 @media screen and (max-width: 570px) {
+
+	#home {
+		overflow-x: hidden;
+	}
 
 	#home nav {
 		width: inherit;
