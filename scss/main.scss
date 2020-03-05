@@ -55,7 +55,7 @@ main {
 
   .icons {
     margin-top: 1rem;
-
+    position: fixed;
     a {
       padding: 0.4rem;
       &:hover {
@@ -653,6 +653,20 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 60px;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.particles-js-canvas-el {
+  position: fixed;
+  background-size: cover;
+  opacity: 70%;
 }
 
 @import "mobile";
