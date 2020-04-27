@@ -4,7 +4,8 @@
   right: 35px;
   top: 35px;
   cursor: pointer;
-  transition: all 0.5s ease-out; }
+  transition: all 0.5s ease-out;
+  font-family: 'Roboto', sans-serif; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
@@ -98,7 +99,7 @@ body {
   color: white;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background-attachment: fixed;
@@ -136,7 +137,8 @@ a {
 header {
   position: fixed;
   z-index: 2;
-  width: 100%; }
+  width: 100%;
+  font-family: 'Roboto', sans-serif; }
 
 .text-secondary {
   color: #F7CE3E; }
@@ -253,6 +255,7 @@ main {
   color: #635757;
   display: block;
   margin: 38.5px 0px;
+  font-family: 'Roboto', sans-serif;
   font-size: 200%; }
 
 #portfolio .description {
